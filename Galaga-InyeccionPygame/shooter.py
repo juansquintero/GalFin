@@ -11,7 +11,7 @@ GREEN = (0, 255, 0)
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Galaga Pobre")
+pygame.display.set_caption("Galaga Pobre 0.0.1")
 clock = pygame.time.Clock()
 
 #Titulos y de mas
