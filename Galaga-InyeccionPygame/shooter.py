@@ -136,7 +136,8 @@ class Explosion(pygame.sprite.Sprite):
 def show_go_screen():
 	screen.blit(background, [0,0])
 	draw_text(screen, "Galaga Pobre", 65, WIDTH // 2, HEIGHT // 4)
-	draw_text(screen, "Flechas y espacio", 27, WIDTH // 2, HEIGHT // 2)
+	draw_text(screen, "Flechas y espacio", 25, WIDTH // 2, HEIGHT // 2)
+	draw_text(screen, "Sebastian Quintero, Sebastian Fajardo, Rafael Campos", 18, WIDTH // 2, HEIGHT // 6)
 	draw_text(screen, "Presione Spacio", 20, WIDTH // 2, HEIGHT * 3/4)
 	pygame.display.flip()
 	waiting = True
